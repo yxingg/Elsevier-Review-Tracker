@@ -34,6 +34,8 @@
 pip install requests json uuid time collections  
 ```
 
+**注意：** 因输出信息包含中文字符，请确保文件编码、Python 代码、终端/控制台编码、数据处理方式以及显示字体均支持中文，以正确显示输出信息
+
 ### 2️⃣ 使用方法  
 首先在 `Elsevier-Review-Tracker.py` 文件中补充L190-L194中的待查询的论文编号、通讯作者姓、名：
 
