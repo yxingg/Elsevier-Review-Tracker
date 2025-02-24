@@ -35,7 +35,17 @@ pip install requests json uuid time collections
 ```
 
 ### 2️⃣ 使用方法  
-运行 `Elsevier-Review-Tracker.py` 文件即可：  
+首先 `Elsevier-Review-Tracker.py` 文件中补充L190-L194中的待查询的论文编号、通讯作者姓、名：
+
+```bash  
+manuscript_id = get_manuscript_id(
+            manuscript_number="",# 引号内填论文编号，如JII-D-xx-xxxxx
+            last_name="",# 引号内填通讯作者姓
+            first_name=""# 引号内填通讯作者名
+        )  
+```
+
+接着运行 `Elsevier-Review-Tracker.py` 文件即可：  
 
 ```bash  
 python Elsevier-Review-Tracker.py  
